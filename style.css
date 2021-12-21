@@ -25,7 +25,13 @@
     border: 1px solid #000;
     box-sizing: border-box;
     width: 166px;    
+    height: 166px;
     display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    user-select: none;
 }
 
 .game__tile:hover {
